@@ -7,10 +7,10 @@ public class asa {
 			for(int j=0;j<5;j++) {
 				//if(((j==1 || j==5)&& i!=1)&&((i==1||i==4||i==7)&&(j>0||j<4))) {
 				if(((i==3)||(i==0&&(j!=5))||(i==6))||(j==0)||(j==4)){	
-					System.out.print("*");
+					System.out.print("  $  ");
 				}
 				else {
-					System.out.print(" ");
+					System.out.print("   ");
 				}
 			}System.out.println();
 			
